@@ -1,0 +1,12 @@
+#canvas {
+	background-color: darkgray;
+	cursor: pointer;
+  	border: 1px solid black;
+}
+
+#label,#div{
+	display: block;
+}
+img{
+	display: none;
+}
