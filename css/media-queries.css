@@ -11,8 +11,8 @@
 	padding-left: 25px;
 	}
 }
-
-@media only screen and (max-width:651px) {
+/* (651)+24px на скрол бар*/
+@media only screen and (max-width:675px) {
 	.searchBlock {
 		margin: 0px 17px 12px;
 	}
