@@ -525,8 +525,9 @@ figure {
 	margin-top: 20px;
 	border-radius: 4px;
 	background-color: #D8DBDE;
-/*	margin-bottom: 55px;*/
-/*	padding-bottom: 55px;*/
+/*	border-spacing: 1px 1px 1px 1px;*/
+	border-spacing: 1px;
+	padding: 0px;
 }
 
 th {
