@@ -8,4 +8,5 @@ function load_style(url) {
 }
 window.onload = function () {
     load_style('css/styles.css');
+    load_style('font-awesome-4.7.0/css/font-awesome.min.css');
 };
