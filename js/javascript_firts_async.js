@@ -1,12 +1,1 @@
-function load_style(url) {
-    var e = document.createElement("link");
-    e.setAttribute("rel","stylesheet");
-    e.setAttribute("property","stylesheet");
-    e.setAttribute("media","screen");
-    e.href = url;
-    document.body.appendChild(e);
-}
-window.onload = function () {
-    load_style('css/styles.css');
-    load_style('font-awesome-4.7.0/css/font-awesome.min.css');
-};
+function load_style(e){var t=document.createElement("link");t.setAttribute("rel","stylesheet"),t.setAttribute("property","stylesheet"),t.setAttribute("media","screen"),t.href=e,document.body.appendChild(t)}window.onload=function(){load_style("css/styles.css"),load_style("font-awesome-4.7.0/css/font-awesome.min.css");var e=document.querySelector(".gallery figure"),t=0,s=setTimeout(function n(){e.children[t].classList.contains("showing")&&e.children[t].classList.remove("showing"),t+=1,8==t&&(t=0),e.children[t].classList.add("showing"),s=setTimeout(n,3e3)},3e3)};
