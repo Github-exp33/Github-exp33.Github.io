@@ -102,7 +102,9 @@ section,
 main {
   display: block;
 }
-
+img {
+  width: 100%;
+}
 .debug {
   height: 100vh;
   position: fixed;
